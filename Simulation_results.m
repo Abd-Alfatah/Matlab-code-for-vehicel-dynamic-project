@@ -12,7 +12,7 @@ kf=0.1:0.1:1;
 kr=1-kf;
 h=0.5;
 theta=0;
-in the previous steps we just plogged in the different parameteres and their values
+%in the previous steps we just plogged in the different parameteres and their values
 %deceleration calculation
 for i=1:10
     df(i)=(mue*l2+kf(i)*fr)/(kf(i)-mue*h/l);
@@ -59,7 +59,7 @@ end
 %hold off
 plot(v*3.6,s)
 hold on 
-Now let us poltting the data
+%Now let us poltting the data
 xlabel("initial speed[km/h]")
 ylabel("distance [m]")
 legend("minimum braking distance")
